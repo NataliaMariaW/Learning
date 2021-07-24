@@ -1,4 +1,4 @@
-package pl.nataliawojtkowiak.learning.myproject;
+package pl.nataliawojtkowiak.learning;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
