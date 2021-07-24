@@ -1,7 +1,5 @@
 package pl.nataliawojtkowiak.learning.basics;
 
-import static org.mockito.MockitoAnnotations.initMocks;
-
 import org.assertj.core.api.Assertions;
 import org.junit.Before;
 import org.junit.Test;
@@ -20,10 +18,12 @@ public class FirstExercisesTest {
 	public void shouldReturnBiggerValue() {
 		// given
 		// when
-		int result = firstExercises.biggerValueOf(-123, -124);
+		int result = firstExercises.biggerValueOf(3, 2);
+		int result2 = firstExercises.biggerValueOf(2, 3);
 
 		// then
-		Assertions.assertThat(result).isEqualTo(-123);
+		Assertions.assertThat(result).isEqualTo(3);
+		Assertions.assertThat(result2).isEqualTo(3);
 	}
 
 	@Test
